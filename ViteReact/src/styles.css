@@ -1,0 +1,43 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+.logo-header {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    color: #61DAFB;
+}
+
+.project-header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #DEEBF8;
+}
+
+.nav {
+    padding: 30px;
+    background: #21222A;
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+
+.nav > h3 {
+    margin-right: auto;
+}
+
+.nav > img {
+    margin-right: 10px;
+}
+
