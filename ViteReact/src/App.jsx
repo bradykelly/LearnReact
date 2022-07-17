@@ -1,11 +1,11 @@
 import NavBar from "./components/NavBar.jsx";
-import Main from "./components/Main.jsx";
+import Facts from "./components/Facts.jsx";
 
 const App = () => {
     return (
         <div className="container">
             <NavBar />
-            <Main />
+            <Facts />
         </div>
     )
 }
