@@ -40,12 +40,27 @@ body {
 }
 
 .facts {
-    padding: 30px;
+    padding: 60px 30px;
     color: #FFFFFF;
+    background: url("./images/react-icon-large.png") no-repeat right;
+}
+
+.facts-header {
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: -0.05em;
+}
+
+.facts-list {
+    margin-top: 45px;
 }
 
 .facts-list > li {
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin: 15px 25px;
+}
+
+.facts-list > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
 }
 
