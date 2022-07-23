@@ -11,6 +11,50 @@ body {
   height: 860px;
 }
 
-.card-top {
+.card-image {
   display: flex;
+  height: 420px;
+  border-radius: 10px 10px 0 0;
+  background-image: url("images/laura.png");
+  background-position-x: center;
+  background-position-y: -100px;
+}
+
+.text {
+  font-family: 'Inter', sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 35px;
+  background-color: black;
+}
+
+.card-content h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.card-content h3 {
+  color: #F3BF99;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.card-content a {
+  color: #F5F5F5;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
