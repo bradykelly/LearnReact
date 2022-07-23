@@ -1,12 +1,14 @@
 ﻿
 
-
 const Card = () => {
     return (
         <div className="card">
-            <div className="card-image">
-                
+            Hello world!
+            <div className="card-top">
+                Hello Image
             </div>
         </div>
     );
 }
+
+export default Card;

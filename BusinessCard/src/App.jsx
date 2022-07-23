@@ -3,7 +3,8 @@ import "./App.css";
 
 const App = () => {
     return (
-        
-      <Card />  
+        <Card />
     );
 }
+
+export default App;
