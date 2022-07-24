@@ -1,9 +1,10 @@
 ﻿import email from "./images/mail-icon.png";
 import linkedin from "./images/linkedin-icon.png";
+import "./App.css"
 
-const cardInfo = () => {
+const CardInfo = () => {
     return (
-        <>
+        <div>
             <div className="card-image"></div>
             <div className="top-content text">
                 <div className="center">
@@ -22,6 +23,8 @@ const cardInfo = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
+
+export default CardInfo;
