@@ -1,9 +1,9 @@
 ﻿import email from "./images/mail-icon.png";
 import linkedin from "./images/linkedin-icon.png";
 
-const Card = () => {
+const cardInfo = () => {
     return (
-        <div className="card">
+        <>
             <div className="card-image"></div>
             <div className="top-content text">
                 <div className="center">
@@ -20,10 +20,8 @@ const Card = () => {
                         <img src={linkedin} alt="linkedin" />
                         LinkedIn
                     </div>
-                </div> 
+                </div>
             </div>
-        </div>
+        </>
     );
 }
-
-export default Card;
