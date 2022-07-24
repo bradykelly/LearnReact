@@ -6,9 +6,9 @@ body {
 .card {
     background-color: #23252C;
     color: #FFFFFF;
+    margin: 0 auto;
     padding: 50px 115px;
     width: 550px;
-    height: 860px;
 }
 
 .card-image {
@@ -82,4 +82,38 @@ body {
     margin: 10px 0 30px 20px;
     background-color: #5093E2;
     color: #FFFFFF;
+}
+
+.card-detail {
+    margin-top: -50px;
+    padding: 50px 70px;
+    background-color: black;
+}
+
+.detail-text {
+    margin-top: 0;
+}
+
+.detail-text h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-detail p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-social {
+    display: flex;
+    margin-top: -40px;
+    padding: 40px;
+    padding: 40px;
+    background-color: black;
+    border-radius: 0 0 10px 10px;
+}
+
+.card-social img {
+    height: 35px;
+    margin: 0 20px;
 }

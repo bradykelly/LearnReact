@@ -4,7 +4,7 @@ import "./App.css"
 
 const CardInfo = () => {
     return (
-        <div>
+        <>
             <div className="card-image"></div>
             <div className="top-content text">
                 <div className="center">
@@ -23,7 +23,7 @@ const CardInfo = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 
