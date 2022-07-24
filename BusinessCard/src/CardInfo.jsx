@@ -1,6 +1,5 @@
 ﻿import email from "./images/mail-icon.png";
 import linkedin from "./images/linkedin-icon.png";
-import "./App.css"
 
 const CardInfo = () => {
     return (
