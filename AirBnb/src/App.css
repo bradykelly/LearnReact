@@ -49,3 +49,32 @@ nav {
 .hero-text p {
     font-size: 16px;
 }
+
+.card {
+    width: 270px;
+    background-color: white;
+    border-radius: 9px;
+}
+
+.card-image {
+    height: 360px;
+    background-image: url("./assets/katie-zaferes.png");
+    background-size: 100%;
+}
+
+.card-text {
+    background-image: url("./assets/star.png");
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 3PX;
+    padding: 5px 5px;
+}
+
+.card-text p {
+   margin: 5px;
+}
+
+.card-text .rating {
+    font-size: 16px;
+    margin: 3px 30px;
+}
