@@ -1,0 +1,23 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.container {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+    font-family: Poppins, sans-serif;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    background-color: white;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
