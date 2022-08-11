@@ -9,18 +9,16 @@ const App = () => {
     const cards = data.map((card) => {
         return <Card
             key={card.id}
-            image={card.coverImg}
-            rating={card.stats.rating}
-            reviews={card.stats.reviewCount}
-            location={card.location}
-            blurb={card.title}
-            price={card.price} />
+            item = {card}
+        />
     });
 
     return (
         <div className={styles["container"]}>
             <NavBar />
-            {cards}
+            <section className={styles["cards-list"]}>
+                {cards}
+            </section>
         </div>
     )
 }

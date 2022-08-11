@@ -21,3 +21,10 @@ nav {
     background-color: white;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
 }
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
