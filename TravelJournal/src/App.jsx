@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
+import Entry from "./Entry"
 import data from "./data.js";
 import styles from './styles/App.module.css';
 
@@ -14,6 +15,7 @@ const App = () => {
     return (
         <div className={styles["container"]}>
             <NavBar />
+            <Entry />
             <section className={styles["cards-list"]}>
                 {/*{cards}*/}
             </section>
