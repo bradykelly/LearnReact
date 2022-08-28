@@ -1,0 +1,29 @@
+﻿nav {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    background-color: #F55A5A;;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.title img {
+    width: 35px;
+    height: 35px;
+}
+
+.title span {
+    padding-left: 10px;
+}
