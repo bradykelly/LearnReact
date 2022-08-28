@@ -6,16 +6,17 @@ import data from "./data.js";
 import styles from './styles/App.module.css';
 
 const App = () => {
-    const cards = data.map((card) => {
+    const cards = data.map((item) => {
         return <Card
-            key={card.id}
-            item = {card}
+            key={item.id}
+            {...item}
         />
     });
 
     return (
         <div className={styles["container"]}>
             <NavBar />
+            <Hero />
             <section className={styles["cards-list"]}>
                 {cards}
             </section>
