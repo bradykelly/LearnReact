@@ -22,3 +22,20 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.cards-list {
+    padding: 20px;
+}
+
+.cards-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cards-list hr {
+    color: #F5F5F5;
+}
+
+.cards-list li:last-child hr {
+    display: none;
+}

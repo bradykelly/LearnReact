@@ -5,19 +5,24 @@ import data from "./data.js";
 import styles from './styles/App.module.css';
 
 const App = () => {
-    // const cards = data.map((item) => {
-    //     return <Card
-    //         key={item.id}
-    //         {...item}
-    //     />
-    // });
+    const cards = data.map((item) => {
+        return (
+            <li>
+                <Entry
+                    key={item.id}
+                    {...item} />
+                <hr />
+            </li>
+        )
+    });
 
     return (
         <div className={styles["container"]}>
             <NavBar />
-            <Entry />
             <section className={styles["cards-list"]}>
-                {/*{cards}*/}
+                <ul>
+                    {cards}
+                </ul>
             </section>
         </div>
     )
